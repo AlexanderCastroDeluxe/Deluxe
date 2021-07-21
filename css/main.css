@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 241, 235);
+
+
+}
+#menu{
+    /*background-color: rgb(245, 241, 235);
+    background-color: rgb(212, 181, 160);
+    background: linear-gradient(to right,  rgb(212, 181, 160),  rgb(178, 163, 142 )) ;
+     background-color: rgb(243, 182, 92); este es
+
+*/
+    margin-top: -5%;
+}
+#menu a{
+    font-size: 18px;
+    font-weight: bold;
+    color:black
+}
+
+
+#nav-home{
+    filter: drop-shadow(2px 2px 3px  rgba(0,0,0,0));
+    margin-top: 0px;
+    margin-bottom: -3%;
+}
+
+.producto{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.producto:hover{
+    transform: scale(1.05);
+    filter: drop-shadow(8px 8px 9px  rgb(0, 0, 0));
+
+}
+
+.producto-name{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.producto-name:hover{
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-top: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    height: 20pt;
+    
+}
